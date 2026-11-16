@@ -1,0 +1,2 @@
+# Le dossier public/ est la seule racine web autorisée.
+Options -Indexes

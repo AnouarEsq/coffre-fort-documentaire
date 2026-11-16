@@ -1,0 +1,35 @@
+# Secrets et données locales — ne jamais versionner
+.env
+
+# Clés cryptographiques
+crypto/keystore/*
+!crypto/keystore/.gitkeep
+
+# Fichiers chiffrés, uploads et temporaires
+storage/encrypted/*
+!storage/encrypted/.gitkeep
+storage/uploads/*
+!storage/uploads/.gitkeep
+storage/tmp/*
+!storage/tmp/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Divers
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+*.log
+
+# Livrables destinés à l'envoi par e-mail (non versionnés)
+livrables/
+
+# Fichiers locaux hors projet
+New Text Document.txt
+original_backup.docx
